@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Заказ маҳсулот</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <header class="header">
+    <h1>Маҳсулот</h1>
+    <p>Интихоб кунед ва ба карзина илова намоед</p>
+  </header>
+
+  <section id="products" class="products"></section>
+
+  <section class="cart">
+    <h2>🛒 Карзина</h2>
+    <div id="cartItems"></div>
+
+    <div class="cart-total">
+      <span>Ҳамагӣ</span>
+      <strong id="totalPrice">0 сомонӣ</strong>
+    </div>
+
+    <button class="btn btn-primary" onclick="sendOrder()">
+      Ирсоли заказ
+    </button>
+  </section>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
